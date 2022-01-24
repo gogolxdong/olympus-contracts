@@ -602,15 +602,15 @@ interface IStakingHelper {
     function stake( uint _amount, address _recipient ) external;
 }
 
+interface IReferral {
+  function pushcount(uint256 _value, address buyer) external;
+}
+
 contract OlympusBondDepository is Ownable {
 
     using FixedPoint for *;
     using SafeERC20 for IERC20;
     using SafeMath for uint;
-
-
-
-
     /* ======== EVENTS ======== */
 
     event BondCreated( uint deposit, uint indexed payout, uint indexed expires, uint indexed priceInUSD );
