@@ -1,3 +1,35 @@
+<<<<<<< HEAD
 node_modules/
 artifacts/
 cache/
+=======
+.DS_Store
+cache/
+artifacts/
+
+coverage*
+/types/
+
+.vscode/*
+!.vscode/settings.json.default
+!.vscode/launch.json.default
+!.vscode/extensions.json.default
+
+node_modules/
+.env
+yarn-error.log
+.package-lock.json
+
+.yalc
+yalc.lock
+
+contractsInfo.json
+deployments/**/solcinputs
+
+/.dapp
+
+
+# OpenZeppelin upgradeable files
+.openzeppelin/unknown-*.json
+/flatten
+>>>>>>> 0646cc499d7af8a135f9bf6c653e2c62299f52a1
