@@ -17,7 +17,7 @@ module.exports = {
   networks: {
     bsctestnet: {
       url: "https://data-seed-prebsc-2-s3.binance.org:8545/",
-      accounts: ['e7d431ed9799d85bd5363938ed4a46a3697a82aecad935e65adb7413506d2700']
+      accounts: ['']
     }
   },
 };
